@@ -1,4 +1,4 @@
-## OneCycleScheduler
+## One Cycle Scheduler
 
 This callback implements a cyclic scheduler for learning rate and momentum (beta_1 for Adam optimizers) according to Smith, 2018.
 The method cycles through learning rate and momentum with constant frequency (step size). 
