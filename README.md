@@ -3,7 +3,7 @@
 This callback implements a cyclic scheduler for learning rate and momentum (beta_1 for Adam optimizers) according to Smith, 2018.
 The method cycles through learning rate and momentum with constant frequency (step size). 
 
-### Example: [also see notebook]
+### Example: [also see notebook](http://https://github.com/guolin1/CyclicalScheduler/blob/master/notebook.ipynb)
 batchsize = 100<br/>
 steps_per_epoch = len(x_train)/batchsize<br/>
 cyclescheduler = OneCycleScheduler(<br/>
